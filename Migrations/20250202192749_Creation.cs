@@ -7,7 +7,7 @@
 namespace FAQs.Migrations
 {
     /// <inheritdoc />
-    public partial class DbCreation : Migration
+    public partial class Creation : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -93,7 +93,7 @@ namespace FAQs.Migrations
                     { 3, "Blazor is a free and open-source web framework that enables developers to create web user interfaces (UI) based on components, using C# and HTML. It is being developed by Microsoft, as part of the ASP.NET Core web app framework.", "gen", "What is Blazor?", "blz" },
                     { 4, "Blazor was released on May 14, 2020.", "hist", "When was Blazor released?", "blz" },
                     { 5, "Entity Framework is an open-source ORM framework for .NET applications support by Microsoft.", "gen", "What is Entity Framework?", "ef" },
-                    { 6, "Entity Framework 1.0 was released in 2008.", "gen", "When was Entity Framework released?", "ef" }
+                    { 6, "Entity Framework 1.0 was released in 2008.", "hist", "When was Entity Framework released?", "ef" }
                 });
 
             migrationBuilder.CreateIndex(

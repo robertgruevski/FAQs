@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FAQs.Migrations
 {
     [DbContext(typeof(FaqsContext))]
-    [Migration("20250202182508_DbCreation")]
-    partial class DbCreation
+    [Migration("20250202192749_Creation")]
+    partial class Creation
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -127,7 +127,7 @@ namespace FAQs.Migrations
                         {
                             FAQId = 6,
                             Answer = "Entity Framework 1.0 was released in 2008.",
-                            CategoryId = "gen",
+                            CategoryId = "hist",
                             Question = "When was Entity Framework released?",
                             TopicId = "ef"
                         });

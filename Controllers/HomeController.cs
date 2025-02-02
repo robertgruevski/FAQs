@@ -12,6 +12,9 @@ namespace FAQs.Controllers
 		{
 			this.context = ctx;
 		}
+		[Route("topic/{topic}")]
+		[Route("category/{category}")]
+		[Route("/")]
 		public IActionResult Index(string topic, string category)
 		{
 			List<FAQ> faqs = context.FAQs.Include(f => f.Category).Include(f => f.Topic).OrderBy(f => f.Question).ToList(); // Select * FAQs from Database

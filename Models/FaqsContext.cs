@@ -71,7 +71,7 @@ namespace FAQs.Models
 					FAQId = 6,
 					Question = "When was Entity Framework released?",
 					Answer = "Entity Framework 1.0 was released in 2008.",
-					CategoryId = "gen",
+					CategoryId = "hist",
 					TopicId = "ef"
 				}
 			);

@@ -124,7 +124,7 @@ namespace FAQs.Migrations
                         {
                             FAQId = 6,
                             Answer = "Entity Framework 1.0 was released in 2008.",
-                            CategoryId = "gen",
+                            CategoryId = "hist",
                             Question = "When was Entity Framework released?",
                             TopicId = "ef"
                         });
