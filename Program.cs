@@ -25,6 +25,16 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
+    name: "category-and-topic",
+    pattern: "{controller=Home}/{action=Index}/topic/{topic?}/category/{category?}"
+    );
+
+app.MapControllerRoute(
+	name: "category",
+	pattern: "{controller=Home}/{action=Index}/category/{category?}"
+	);
+
+app.MapControllerRoute(
     name:"topic",
     pattern:"{controller=Home}/{action=Index}/topic/{topic?}"
     );
